@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/demo_task"
+        android:icon="@drawable/demo_task"
+        android:title="Demo Task" />
+    <item
+        android:id="@+id/input_control"
+        android:icon="@drawable/input_control"
+        android:title="Input Control" />
+    <item
+        android:id="@+id/toast_control"
+        android:icon="@drawable/toast_controll"
+        android:title="Dialog" />
+
+
+</menu>

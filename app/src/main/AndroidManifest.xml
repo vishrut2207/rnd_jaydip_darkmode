@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <application
+        android:name="com.example.myapplication.DarkThemeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="q">
+
+        <activity
+            android:name="ui.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ui.activity.SecondActivitiy" />
+        <activity android:name="ui.activity.RelativeLayoutActivity" />
+        <activity android:name="ui.activity.TableLayout" />
+        <activity android:name="ui.activity.Frame" />
+        <activity android:name="ui.activity.Absolute" />
+        <activity android:name="ui.activity.ScrollView" />
+        <activity android:name="ui.activity.HorizontalScrollView" />
+        <activity android:name="ui.activity.SimpleListView" />
+        <activity android:name="ui.activity.ListViewActivity" />
+        <activity android:name="ui.activity.ViewPosition" />
+        <activity android:name="ui.activity.MainInputControl" />
+        <activity android:name="ui.activity.ButtonAndroid" />
+        <activity
+            android:name="ui.activity.ImageButton"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="ui.activity.Edittext" />
+        <activity android:name="ui.activity.Checkbox" />
+        <activity android:name="ui.activity.Radiob" />
+        <activity android:name="ui.activity.SwitchB" />
+        <activity android:name="ui.activity.ToggleB" />
+        <activity android:name="ui.activity.RatingB" />
+        <activity android:name="ui.activity.SpinnerL" />
+        <activity android:name="ui.activity.DateView" />
+        <activity android:name="ui.activity.TimeView" />
+        <activity android:name="ui.activity.ToastDialogSnackBar" />
+        <activity android:name="ui.activity.ToastControl" />
+        <activity android:name="ui.activity.DialogControl" />
+        <activity android:name="ui.activity.SnackbarControl" />
+        <activity android:name="ui.activity.NavigationMainActivity" />
+        <activity android:name="ui.activity.DemoTask" />
+        <activity android:name="ui.activity.DemoLayout" />
+        <activity android:name="ui.activity.DemoTable" />
+        <activity android:name="ui.activity.DemoViewPosition" />
+        <activity android:name="ui.activity.NavigatioActionMenuFloatingButton" />
+        <activity
+            android:name="ui.activity.SlidingMenuWithWebView"
+            android:usesCleartextTraffic="true" />
+        <activity android:name="ui.activity.DropDownMenuN" />
+        <activity android:name="ui.activity.FloatinActionButton" />
+        <activity android:name="ui.activity.ActionBarFixTab" />
+        <activity android:name="ui.activity.ActionBarScrollableTab" />
+        <activity android:name="ui.activity.ImageLoadUsingGlide" />
+        <activity android:name="ui.activity.Drawable" />
+        <activity android:name="ui.activity.Dynamic_list_view" />
+        <activity android:name="ui.activity.BottomNavigation" />
+        <activity android:name="ui.activity.BottomSheet" />
+        <activity android:name="ui.activity.CardView" />
+        <activity android:name="ui.activity.SlideItHomeScreenDesign" />
+        <activity android:name="ui.activity.RecycleViewMainActivity" />
+        <activity
+            android:name="ui.activity.CollapsingToolbar"
+
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="ui.activity.JsonActivity" />
+        <activity android:name="ui.activity.GsonCountryStateCity" />
+        <activity android:name="ui.activity.GsonEmployeeDetailMainActivity" />
+        <activity
+            android:name="ui.activity.SQLiteDatabaseMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="ui.activity.UserAddDataBaseActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="ui.activity.UserUpdataActivity" />
+        <activity android:name="ui.activity.ApiLoginDemo" />
+        <activity android:name="ui.activity.ApiRegistrationUser" />
+        <activity android:name="ui.activity.ApiLogOutActivity" />
+        <activity android:name="ui.activity.ObVolleyApiDemo" />
+        <activity android:name="ui.activity.ObVolleyLogin" />
+        <activity android:name="ui.activity.ObVolleyRegistrationUser" />
+        <activity android:name="ui.activity.ApiImageDemo" />
+        <activity android:name="ui.activity.OBVolleyImageDemo" />
+        <activity android:name="ui.activity.ApiOTPVerifyUser" />
+        <activity android:name="ui.activity.OBVolleyVideoDemo" />
+        <activity
+            android:name="ui.activity.WocDesignMainActivitiy"
+            android:theme="@style/woc_design" />
+        <activity android:name="ui.fragment.PreferenceFragment" />
+
+    </application>
+
+</manifest>

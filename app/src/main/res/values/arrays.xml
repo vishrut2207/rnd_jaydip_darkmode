@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeListArray">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="themeEntryArray">
+        <item>default</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <!-- Theme Color -->
+    <string-array name="themeColorListArray">
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+    </string-array>
+
+    <string-array name="themeColorEntryArray">
+            <item>orange</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>red</item>
+    </string-array>
+</resources>

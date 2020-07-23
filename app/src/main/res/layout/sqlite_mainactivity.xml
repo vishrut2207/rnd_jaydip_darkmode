@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <EditText
+        android:id="@+id/search_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_border_only"
+        android:drawableStart="@drawable/ic_search_black_24dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawablePadding="5dp"
+        android:hint="Search here"
+        android:padding="10dp" />
+
+    <!-- <androidx.core.widget.NestedScrollView
+
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sqlite_recyclerviewmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_add"
+        android:layout_below="@id/search_user"
+        android:layout_margin="8dp"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="vertical"
+        tools:targetApi="lollipop">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+
+        android:id="@+id/empty_notes_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_user"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="No user data"
+
+        />
+
+    <TextView
+        android:id="@+id/empty_search_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text="Oops data not available...!"
+        android:visibility="gone"
+
+        />
+    <!--  <include
+          android:id="@+id/rv"
+          layout="@layout/sqlite_recyclerview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_above="@+id/btn_add"
+          android:layout_below="@id/search_user"
+          android:layout_margin="8dp" />-->
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/round_button"
+        android:text="Add" />
+</RelativeLayout>

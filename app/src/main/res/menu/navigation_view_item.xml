@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group>
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_dark_theme"
+            android:title="Dark Theme"
+          />
+        <item
+            android:id="@+id/basic_layout"
+            android:icon="@drawable/basic_layout"
+            android:title="Basic Layout"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/input_control"
+            android:icon="@drawable/input_control"
+            android:title="Input Control"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/toast_control"
+            android:icon="@drawable/toast_controll"
+            android:title="Toast,dialog and snackBar" />
+
+        <item
+            android:id="@+id/navigation_menu_floating"
+            android:icon="@drawable/navigation_menu"
+            android:title="Navigation,Action and Menu" />
+        <item
+            android:id="@+id/demo_task"
+            android:icon="@drawable/demo_task"
+            android:title="Demo Task" />
+        <item
+            android:id="@+id/action_bar_fix_tab"
+            android:icon="@drawable/actionbar_fix"
+            android:title="Actionbar Fix Tab" />
+        <item
+            android:id="@+id/action_bar_scrollable_tab"
+            android:icon="@drawable/actionbar_scrollable_tab"
+            android:title="Actionbar Scrollable Tab" />
+        <item
+            android:id="@+id/image_load_using_glide"
+            android:icon="@drawable/image_load_using_glide"
+            android:title="Image Load Using Glide" />
+        <item
+            android:id="@+id/task_draweble"
+            android:icon="@drawable/drawable"
+            android:title="Drawable" />
+        <item
+            android:id="@+id/bottom_navigation"
+            android:icon="@drawable/bottom_navigation"
+            android:title="Bottom Navigation" />
+        <item
+            android:id="@+id/bottom_sheet"
+            android:icon="@drawable/bottom_sheet"
+            android:title="Bottom Sheet" />
+        <item
+            android:id="@+id/cardview_nav"
+            android:icon="@drawable/cardview"
+            android:title="CardView" />
+        <item
+            android:id="@+id/slidet_main"
+            android:icon="@drawable/slideit_main"
+            android:title="SlideIt" />
+        <item
+            android:id="@+id/nv_collapsing_toolbar"
+            android:icon="@drawable/item_collapsing_toolbar"
+            android:title="Collapsing Toolbar" />
+
+    </group>
+    <item android:title="Adapter"
+    >
+        <menu>
+            <item
+                android:id="@+id/dynamic_list"
+                android:icon="@drawable/dynamic_list_item"
+                android:title="Dynamic List" />
+            <item
+                android:id="@+id/recyclerview"
+                android:icon="@drawable/recyclerview"
+                android:title="Recycler View" />
+        </menu>
+    </item>
+
+    <item android:title="Json/Gson">
+        <menu>
+            <item
+                android:id="@+id/nav_json"
+                android:icon="@drawable/nav_json"
+                android:title="Json" />
+            <item
+                android:id="@+id/nav_gson_item_country"
+                android:icon="@drawable/country_item"
+                android:title="Country,State,City" />
+            <item
+                android:id="@+id/nav_gson_item_user_details"
+                android:icon="@drawable/json_user_details"
+                android:title="User Details Get Using" />
+
+        </menu>
+    </item>
+    <item android:title="Database">
+        <menu>
+            <item
+                android:id="@+id/nv_sqlite_database"
+                android:icon="@drawable/dynamic_list_item"
+                android:title="SQLite Database" />
+
+        </menu>
+    </item>
+
+    <item android:title="API">
+        <menu>
+            <item
+                android:id="@+id/nv_login_demo_api"
+                android:icon="@drawable/nav_json"
+                android:title="OB Login Demo" />
+               <item
+                   android:id="@+id/nv_image_demo_api"
+                   android:icon="@drawable/image_load_using_glide"
+                   android:title="OB Image Demo" />
+            <item
+                android:id="@+id/nav_ob_volley_lib_post_api"
+                android:icon="@drawable/nav_json"
+                android:title="Ob Video Demo" />
+
+        </menu>
+    </item>
+    <item android:title="WOC Design"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nv_woc_design"
+                android:icon="@drawable/basic_layout"
+                android:title="Woc Design" />
+        </menu>
+    </item>
+</menu>

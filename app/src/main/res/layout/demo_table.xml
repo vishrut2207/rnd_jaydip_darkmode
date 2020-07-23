@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#FF9800"
+                    android:gravity="center"
+                    android:text="Color1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#9DE932"
+                    android:gravity="center"
+                    android:text="Color2"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#F01616"
+                    android:gravity="center"
+                    android:text="Color3"
+                    android:textSize="30dp" />
+            </TableRow>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_span="2"
+                    android:layout_weight="2"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#0690FF"
+                    android:gravity="center"
+                    android:text="Color1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#0690FF"
+                    android:gravity="center"
+                    android:text="Color2" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_span="3"
+                    android:layout_weight="3"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#636D70"
+                    android:gravity="center"
+                    android:text="Color1" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_span="2"
+                    android:layout_weight="2"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#F85927"
+                    android:gravity="top"
+                    android:text="Color1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#3F51B5"
+                    android:gravity="top"
+                    android:text="Color2" />
+            </TableRow>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#036B03"
+                    android:gravity="bottom"
+                    android:text="Color1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#2DC6DA"
+                    android:gravity="bottom"
+                    android:maxHeight="50dp"
+                    android:text="Color2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeTextType="uniform"
+                    android:background="#DB0F56"
+                    android:gravity="bottom"
+                    android:text="Color1" />
+            </TableRow>
+        </LinearLayout>
+    </LinearLayout>
+</TableLayout>

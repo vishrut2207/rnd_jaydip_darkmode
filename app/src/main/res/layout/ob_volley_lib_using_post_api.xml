@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login, Image and Video post using ObVolley"
+        android:textColor="#114F6D"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/login_demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/api_btn_border"
+        android:text="    login demo    "
+        android:textColor="#114F6D" />
+
+     <Button
+         android:id="@+id/image_demo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="15dp"
+         android:background="@drawable/api_btn_border"
+         android:text="    image demo    "
+         android:textColor="#114F6D" />
+
+      <Button
+          android:id="@+id/video_demoo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/api_btn_border"
+          android:text="    video demo    "
+          android:textColor="#114F6D" />
+
+</LinearLayout>

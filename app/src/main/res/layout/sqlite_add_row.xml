@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp">
+
+        <ImageView
+            android:id="@+id/rv_deleteuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_cancel_black_24dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/rr"
+        android:layout_toLeftOf="@+id/rr"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rv_imagee"
+                android:layout_width="110dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/d_name"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Name: "
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/rv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@id/d_name"
+                android:layout_toRightOf="@id/d_name"
+                android:text="  raj"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/d_email"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/ll"
+                android:layout_toRightOf="@id/ll"
+                android:text="Email:"
+
+                android:textColor="@color/text_color"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/rv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/d_name"
+                android:layout_toRightOf="@id/d_name"
+                android:text="jaydhani@gmail.com"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/d_age"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_email"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/ll"
+                android:text="Age:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/rv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_email"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@id/d_age"
+                android:text="34"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/d_gender"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_age"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/ll"
+                android:text="Gender:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/rv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_age"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/d_gender"
+                android:text="Male"
+                android:textColor="@color/text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/d_phone_no"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_gender"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/ll"
+                android:text="Phone No:"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/rv_phone_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rv_gender"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/d_gender"
+                android:inputType="phone"
+                android:digits="0123456789"
+                android:text="9913229984"
+                android:textColor="@color/text_color"
+                android:textSize="12sp"
+                tools:ignore="TextViewEdits"
+                android:layout_toEndOf="@id/d_gender" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

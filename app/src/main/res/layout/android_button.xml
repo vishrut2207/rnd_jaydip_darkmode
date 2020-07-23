@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Simple Android Button"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/simple_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:onClick="simpleButton"
+            android:background="@drawable/btn_click_bgn"
+            android:padding="15dp"
+            android:text="Simple Button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with icon Left"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="leftIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:drawableLeft="@drawable/call"
+            android:padding="15dp"
+            android:text="    Button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with icon Right"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="rightIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="#B6A207"
+            android:drawableRight="@drawable/call"
+            android:padding="15dp"
+            android:text="Button    " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with Background Image"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="backgroundImage"
+            android:id="@+id/image_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:background="@drawable/img"
+            android:text="Button"
+            android:textColor="#000"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with Border"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="simpleBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_border"
+            android:padding="15dp"
+            android:text="Button with Border" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with Radius border"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="radiusborder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_radius"
+            android:padding="15dp"
+            android:text="Button with Radius border" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Button with Round Border"
+            android:textColor="@color/text_header_color"
+            android:textSize="20dp"
+
+            />
+
+        <Button
+            android:onClick="roundBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_round"
+            android:padding="15dp"
+            android:text="Button with Round Border" />
+    </LinearLayout>
+</ScrollView>

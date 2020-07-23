@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/eme"
+        android:title="EME"
+        android:visible="true" />
+    <item
+        android:id="@+id/DM"
+        android:title="Dm"
+        android:visible="true" />
+    <item
+        android:id="@+id/JAVA"
+        android:title="JAVA"
+        android:visible="true" />
+    <item
+        android:id="@+id/SP"
+        android:title="SP"
+        android:visible="true" />
+    <item
+        android:id="@+id/CD"
+        android:title="CD"
+        android:visible="true" />
+</menu>

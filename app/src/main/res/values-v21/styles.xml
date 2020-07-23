@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+//***********************************************
+
+//*****************
+    <style name="MyDialogTheme" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+        <item name="android:numbersBackgroundColor">#D30C50</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:headerBackground">#fff</item>
+        <item name="android:background">#4893DD</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:colorControlNormal">#000000</item>
+    </style>
+
+    <style name="MyDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <style name="PopupMenuOverlapAnchor" parent="@style/Theme.AppCompat.Light">
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+    //**************************
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">
+       user interface
+    </string>
+    <string name="slidename">
+        <html><font color="#FFFFFF">SLIDE</font></html>
+        <html><font color="#FF6FFA07">IT</font></html>
+
+    </string>
+    <string-array name="spinner">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+
+    </string-array>
+
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="close">close</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="open">open</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string name="Image_video_Token_api">http://docurl.ngrok.io</string>
+    <string name="login_signUp_api">http://atmlocal.ngrok.io</string>
+
+</resources>
